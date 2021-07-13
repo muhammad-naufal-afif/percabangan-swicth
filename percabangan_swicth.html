@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Percabangan switch/case</title>
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("Input bil");
+        var hadiah = "";
+        var hasil = jawab % 2;
+        switch(hasil == 0){
+            case "0":
+                hadiah = "Cetak genap";
+                document.write(hasil + ' : ' + hadiah)
+                break;
+            case "1":
+                hadiah = "Cetak ganjil";
+                document.write(hasil + ' : ' + hadiah)
+                break;
+        }
+
+        document.write( + ' : ' + hadiah)
+    </script>
+</body>
+</html>
